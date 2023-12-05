@@ -1,0 +1,45 @@
+$primary:        hsl(0, 0%, 100%);
+$light:          hsl(270, 3%, 87%);
+$dark:           hsl(279, 6%, 55%);
+$success:       hsl(278, 94%, 30%);
+$danger:         hsl(0, 100%, 66%);
+$warning:       hsl(278, 68%, 11%);
+
+$font-family-sans-serif: Space Grotesk;
+
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 5,
+  7: $spacer * 7,
+) !default;
+
+$button-radius: 3px;
+$button-padding-X: 30px;
+$button-padding-Y: 10px;
+
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
+$btn-border-padding-X: $button-padding-X;
+$btn-border-padding-X-sm: $button-padding-X;
+$btn-border-padding-Y-lg: $button-padding-Y;
+$btn-border-padding-Y: $button-padding-Y;
+$btn-border-padding-Y-sm: $button-padding-Y;
+$btn-border-padding-Y-lg: $button-padding-Y;
+
+$input-radius: 3px;
+$input-btn-padding-y: 0.7rem;
+$input-btn-padding-x: 1rem;
+$input-border-radius: $input-radius;
+$input-border-radius-sm: $input-radius;
+$input-border-radius-lg: $input-radius;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// hsl(249, 99%, 64%) to

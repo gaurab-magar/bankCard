@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+}
+.card{
+    width: 45%;
+}
+.right{
+    height: 100vh;
+}
+.card label{
+    font-size: smaller;
+}
+.card input:focus{
+    border: 1px solid purple;
+}
+#size{
+    height: 12rem;
+    width: 20rem;
+}
+.f-card{
+    background: url('../images/bg-card-front.png') center center no-repeat;
+}
+.left{
+    height: 100vh;
+    background: url('../images/bg-main-desktop.png') center center no-repeat;
+}
+.f-card{
+    content: "";
+    top: 5rem;
+    left: 10rem;
+}
+.s-card{
+    content: "";
+    top: 18rem;
+    left: 14rem;
+}
+
+#thankYou{
+    display: none;
+}
+.wide{
+    width: 24rem;
+}
+
+@media only screen and (max-width: 375px){
+    
+}
